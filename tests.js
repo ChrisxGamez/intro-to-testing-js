@@ -42,11 +42,22 @@ describe('sayHello', function() {
         expect(sayHello(null)).toBe("Hello, World!");
     });
 })
+describe('isFive', function() {
+    it('should be a defined function', function() {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return a boolean when called', function() {
+        expect(typeof isFive()).toBe("boolean");
+    });
 
-
-
-
-
-
+});
+describe('isEven', function() {
+    it('should be a defined function', function() {
+        expect(typeof isEven).toBe('function');
+    });
+    it('should return a boolean when called', function() {
+        expect(typeof isEven()).toBe("boolean");
+    });
+});
 
 

@@ -4,7 +4,6 @@ function helloWorld() {
 }
 
 function sayHello(input) {
-
     if (input === "Alex") {
         return "Hello, Alex!";
 
@@ -28,6 +27,22 @@ function sayHello(input) {
     }
 }
 
+function isFive(input) {
+  if (input == 5) {
+      return true
+  } else {
+      return false
+  }
+}
 
+console.log(isFive("5"));
 
+function isEven(input){
+    if (input % 2 === 0) {
+        return true
+    } else {
+        return false
+    }
 
+}
+console.log(isEven());
