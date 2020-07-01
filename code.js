@@ -34,15 +34,24 @@ function isFive(input) {
       return false
   }
 }
-
 console.log(isFive("5"));
 
 function isEven(input){
     if (input % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+function isVowel(input) {
+    if (input.includes('a|e|i|o|u|A|E|I|O|U')) {
         return true
     } else {
         return false
     }
-
 }
-console.log(isEven());
+console.log(isVowel('a'));
+
+

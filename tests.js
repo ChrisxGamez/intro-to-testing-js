@@ -60,4 +60,12 @@ describe('isEven', function() {
     });
 });
 
+describe('isVowel', function() {
+    it('should be a defined function', function() {
+        expect(typeof isVowel).toBe('function');
+    });
+    it('should return a boolean when called', function() {
+        expect(typeof isVowel()).toBe("boolean");
+    });
+});
 
